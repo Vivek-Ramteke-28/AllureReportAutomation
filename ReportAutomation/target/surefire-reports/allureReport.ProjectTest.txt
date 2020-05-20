@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: allureReport.ProjectTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 65.348 s <<< FAILURE! - in allureReport.ProjectTest
+iCEDQloginTitleTest(allureReport.ProjectTest)  Time elapsed: 0.387 s  <<< FAILURE!
+java.lang.AssertionError: expected [Automate ETL/ DW Testing, Data Migration Testing, BI Report Testing | iCEDQ1111] but found [Automate ETL/ DW Testing, Data Migration Testing, BI Report Testing | iCEDQ]
+	at allureReport.ProjectTest.iCEDQloginTitleTest(ProjectTest.java:59)
+
+tryNowTest(allureReport.ProjectTest)  Time elapsed: 20.372 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-square vc_btn3-style-custom']"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'TORANA-L073', ip: '192.168.42.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91-3-ojdkbuild'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VIVEKR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50701}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0493e95f1bcfd8104fb98c93b9350ce1
+*** Element info: {Using=xpath, value=//a[@class='vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-square vc_btn3-style-custom']}
+	at allureReport.ProjectTest.tryNowTest(ProjectTest.java:109)
+

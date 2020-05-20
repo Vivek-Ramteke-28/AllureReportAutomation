@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="allureReport.ProjectTest" time="65.348" tests="6" errors="0" skipped="1" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\VivekRamteke\eclipse-workspace\ReportAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\VivekRamteke\eclipse-workspace\ReportAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_91-3-ojdkbuild-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VIVEKR~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\VivekRamteke\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf927648970241599847.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/ojdkbuild/java-1.8.0-openjdk-1.8.0.91-3/bin/../jre/bin/server;C:/Program Files/ojdkbuild/java-1.8.0-openjdk-1.8.0.91-3/bin/../jre/bin;C:/Program Files/ojdkbuild/java-1.8.0-openjdk-1.8.0.91-3/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\bin;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\bin;E:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;E:\allure-commandline-2.9.0\allure-2.9.0\bin;C:\Users\VivekRamteke\AppData\Local\Microsoft\WindowsApps;;C:\Users\VivekRamteke\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\VivekRamteke"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="VivekRamteke"/>
+    <property name="java.class.path" value="C:\Users\VivekRamteke\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.15.0.20200310-1832\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91-3-ojdkbuild"/>
+    <property name="java.ext.dirs" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\lib\resources.jar;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\lib\rt.jar;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\lib\sunrsasign.jar;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\lib\jsse.jar;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\lib\jce.jar;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\lib\charsets.jar;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\lib\jfr.jar;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.91-3\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\VivekRamteke\eclipse-workspace\ReportAutomation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="iCEDQlogoPresenceTest" classname="allureReport.ProjectTest" time="3.629"/>
+  <testcase name="iCEDQloginTitleTest" classname="allureReport.ProjectTest" time="0.387">
+    <failure message="expected [Automate ETL/ DW Testing, Data Migration Testing, BI Report Testing | iCEDQ1111] but found [Automate ETL/ DW Testing, Data Migration Testing, BI Report Testing | iCEDQ]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Automate ETL/ DW Testing, Data Migration Testing, BI Report Testing | iCEDQ1111] but found [Automate ETL/ DW Testing, Data Migration Testing, BI Report Testing | iCEDQ]
+	at allureReport.ProjectTest.iCEDQloginTitleTest(ProjectTest.java:59)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method iCEDQloginTitleTest start
+Started login title test
+I am in onTestFailure method iCEDQloginTitleTest failed
+Screenshot captured for test case:iCEDQloginTitleTest
+]]></system-out>
+  </testcase>
+  <testcase name="productStandardEtest" classname="allureReport.ProjectTest" time="18.546"/>
+  <testcase name="dataConnectorLinkTest" classname="allureReport.ProjectTest" time="3.296"/>
+  <testcase name="tryNowTest" classname="allureReport.ProjectTest" time="20.372">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-square vc_btn3-style-custom&apos;]&quot;}&#10;  (Session info: chrome=80.0.3987.163)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;TORANA-L073&apos;, ip: &apos;192.168.42.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91-3-ojdkbuild&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VIVEKR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50701}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0493e95f1bcfd8104fb98c93b9350ce1&#10;*** Element info: {Using=xpath, value=//a[@class=&apos;vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-square vc_btn3-style-custom&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-square vc_btn3-style-custom']"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'TORANA-L073', ip: '192.168.42.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91-3-ojdkbuild'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VIVEKR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50701}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0493e95f1bcfd8104fb98c93b9350ce1
+*** Element info: {Using=xpath, value=//a[@class='vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-square vc_btn3-style-custom']}
+	at allureReport.ProjectTest.tryNowTest(ProjectTest.java:109)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method tryNowTest start
+I am in onTestFailure method tryNowTest failed
+Screenshot captured for test case:tryNowTest
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesTest" classname="allureReport.ProjectTest" time="0">
+    <skipped message="Skipping the test case"/>
+    <system-out><![CDATA[I am in onTestStart method resourcesTest start
+I am in onTestSkipped method resourcesTest skipped
+]]></system-out>
+  </testcase>
+</testsuite>
