@@ -15,6 +15,8 @@ public class BaseClass{
 	public WebDriver driver;
 	public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>(); // Creating the threads in the local
 	
+	
+	//This will create threads which is shared by multiple classes
 
 	public WebDriver initialize_driver() {
 
@@ -28,6 +30,12 @@ public class BaseClass{
 		
 	}
 
+	
+	
+	
+	
+	
+	
 	public static synchronized WebDriver getDriver() {   // created synchronized method for sharing the same driver with the different class i.e.ProjectTest and AllureListener
 	return tdriver.get();
 	}
